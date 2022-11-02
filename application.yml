@@ -1,7 +1,8 @@
 spring:
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
+  spring:
+    mvc:
+      pathmatch:
+        matching-strategy: ant_path_matcher
   sleuth:
     sampler:
       probability: 1.0
